@@ -1,4 +1,4 @@
-# 🎮 Tic Tac Toe - by Ashrafi
+# 🎮 Tic Tac Toe - By Gulam Mohyudin Memon
 
 A vibrant and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript. Inspired by [Apna College](https://www.youtube.com/@ApnaCollegeOfficial)'s JavaScript tutorials.
 
@@ -38,7 +38,7 @@ _(No download needed — play directly in your browser!)_
 
 Planned upgrades to enhance user experience:
 
-- **Online Multiplayer** using **PeerJS (WebRTC)**
+- **Online Multiplayer**
 - **Referral Code System** to invite friends from anywhere
 - **Player Name Input** & display during gameplay
 - **Winning Celebration Animation**
