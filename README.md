@@ -6,7 +6,7 @@ A vibrant and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
 ## Play Online
 
-👉 [Click here to play Tic Tac Toe](https://your-username.github.io/your-repo-name/)  
+👉 [Click here to play Tic Tac Toe](https://memon-gulam-45.github.io/Tic-Tac-Toe-/)  
 _(No download needed — play directly in your browser!)_
 
 
