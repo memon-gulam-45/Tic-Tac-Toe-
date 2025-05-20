@@ -4,16 +4,15 @@ A vibrant and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
 ---
 
-## 🔗 Play Online
+## Play Online
 
 👉 [Click here to play Tic Tac Toe](https://your-username.github.io/your-repo-name/)  
 _(No download needed — play directly in your browser!)_
 
-> ⚠️ Replace the above link with your actual GitHub Pages URL after deployment.
 
 ---
 
-## 🧠 How to Play
+## How to Play
 
 - **Player 1** plays with `O`
 - **Player 2** plays with `X`
@@ -24,7 +23,7 @@ _(No download needed — play directly in your browser!)_
 
 ---
 
-## 🌟 Features
+## Features
 
 - Fully responsive UI
 - Animated gradient background
@@ -35,31 +34,31 @@ _(No download needed — play directly in your browser!)_
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Planned upgrades to enhance user experience:
 
-- 🔗 **Online Multiplayer** using **PeerJS (WebRTC)**
-- 🎯 **Referral Code System** to invite friends from anywhere
-- 🖋️ **Player Name Input** & display during gameplay
-- 🎉 **Winning Celebration Animation**
-- 📏 **Animated Line Over Win Combination**
-- 🎧 **Sound Effects** for actions
-- ⏱️ **Game Timer** and **Restart Countdown**
-- 🌚 **Dark Mode Toggle**
-- 👤 **Single Player Mode** with AI
-- 🔄 **Animated Turn Highlight** using gradient border/shadow
-- 📈 **Scoreboard** to track wins/losses
+- **Online Multiplayer** using **PeerJS (WebRTC)**
+- **Referral Code System** to invite friends from anywhere
+- **Player Name Input** & display during gameplay
+- **Winning Celebration Animation**
+- **Animated Line Over Win Combination**
+- **Sound Effects** for actions
+- **Game Timer** and **Restart Countdown**
+- **Dark Mode Toggle**
+- **Single Player Mode** with AI
+- **Animated Turn Highlight** using gradient border/shadow
+- **Scoreboard** to track wins/losses
 
 ---
 
-## 📸 Preview
+## Preview
 
-_Add a screenshot or GIF of the game UI here after deployment_
+
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 - HTML
 - CSS
