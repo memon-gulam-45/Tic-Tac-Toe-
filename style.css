@@ -17,7 +17,7 @@ body {
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
-h1{
+.heading{
     font-size: 10vmin;
     margin: 3vh;
  }
@@ -51,7 +51,7 @@ h1{
     padding: 0.8rem;
     font-size: 1.2rem;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: 1000% 1000%;
     animation: gradientBG 15s ease infinite;
     color: #ffffff;
     border: none;
@@ -70,15 +70,51 @@ h1{
   transform: scale(0.95);
 }
 
+.msg-container p{
+    font-size: 6vmin;
+    margin: 3rem;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .hide{
     display: none;
 }
 
-.msg-container p{
-    font-size: 6vmin;
-    margin: 1rem;
-}
-
-.msg-container{
-    height: 30vmin;
+@media (max-width: 480px) {
+    .heading{
+        font-size: 13vmin;
+        margin-top: 8vh;
+    }
+    .container{
+        height: 60vh;
+    }
+    .game{
+        height: 60vmin;
+        width: 60vmin;
+    }
+    .box{
+        height: 18vmin;
+        width: 18vmin;
+    }
+    .btn{
+        font-size: 7vmin;
+    }
+    #reset-btn{
+        margin-top: 3vh;
+        margin-bottom: 10vh;
+    }
+    .msg-container p{
+        font-size: 5vmin;
+        margin: 3rem;
+    }
+    .msg-container{
+        height: 100vh;
+    }
 }
