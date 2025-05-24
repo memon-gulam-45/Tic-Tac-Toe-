@@ -73,7 +73,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-  if (winner === "<h1>O</h1>") {
+  if (winner === "<h1 style='font-size:8vmin;'>O</h1>") {
     msg.innerHTML = `Congratulations, ${player1} : O Won`;
   } else {
     msg.innerHTML = `Congratulations, ${player2} : X Won`;
