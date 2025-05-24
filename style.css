@@ -47,6 +47,8 @@ body {
 input {
   width: 40vw;
   height: 5vh;
+  background: transparent;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
   font-size: 3vmin;
   border: none;
   border-radius: 1vh;
@@ -77,6 +79,8 @@ input::placeholder {
 .box {
   height: 18vmin;
   width: 18vmin;
+  font-size: 8vmin;
+  font-weight: 600;
   border: none;
   border-radius: 0.8rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);

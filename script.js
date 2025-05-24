@@ -16,6 +16,7 @@ let storeName = () => {
   player1 = document.querySelector("#player1").value;
   player2 = document.querySelector("#player2").value;
 };
+
 const winPatterns = [
   [0, 1, 2],
   [0, 3, 6],
@@ -33,7 +34,10 @@ const resetGame = () => {
   msgContainer.classList.add("hide");
 };
 
-players.addEventListener("submit", () => {
+players.addEventListener("submit", (e) => {
+  e.preventDefault();
+  storeName();
+
   container.classList.remove("hide");
   resetBtn.classList.remove("hide");
   players.classList.add("hide");
@@ -47,10 +51,10 @@ boxes.forEach((box) => {
     console.log("Box Clicked");
 
     if (turnO) {
-      box.innerHTML = "<h1 style='font-size:8vmin;'>O</h1>";
+      box.innerText = "O";
       turnO = false;
     } else {
-      box.innerHTML = "<h1 style='font-size:8vmin;'>X</h1>";
+      box.innerText = "X";
       turnO = true;
     }
     box.disabled = true;
@@ -73,7 +77,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-  if (winner === "<h1 style='font-size:8vmin;'>O</h1>") {
+  if (winner === "O") {
     msg.innerHTML = `Congratulations, ${player1} : O Won`;
   } else {
     msg.innerHTML = `Congratulations, ${player2} : X Won`;
@@ -97,6 +101,7 @@ const checkWinner = () => {
 };
 
 newGameBtn.addEventListener("click", () => {
+  resetGame();
   msgContainer.classList.add("hide");
   container.classList.add("hide");
   resetBtn.classList.add("hide");
