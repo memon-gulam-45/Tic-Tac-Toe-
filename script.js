@@ -99,6 +99,7 @@ const checkWinner = () => {
 newGameBtn.addEventListener("click", () => {
   msgContainer.classList.add("hide");
   container.classList.add("hide");
+  resetBtn.classList.add("hide");
   players.classList.remove("hide");
 });
 
